@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+.section-p1 {
+    padding: 40px 20px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+button.normal {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.normal:hover {
+    color: white;
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    background-color: gray;
+    box-shadow: 0 -5px 15px black;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+#header .logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+#header .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 60%;
+    max-width: 78%;
+    flex-wrap: wrap;
+}
+
+#header .navbar li {
+    list-style: none;
+    padding: 5px;
+}
+
+#header .navbar li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.685);
+    transition: 0.3s ease;
+}
+
+#header .navbar li a.active {
+    color: white;
+}
+
+#header .navbar li a:hover {
+    color: white;
+}
+
+#header1 {
+    background-color: gray;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+#header1 .navbar1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#header1 .navbar1 li {
+    list-style: none;
+    padding: 2px;
+}
