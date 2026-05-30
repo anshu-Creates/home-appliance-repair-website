@@ -216,3 +216,33 @@ button.normal:hover {
     color: black;
     font-size: 12px;
 }
+
+#reviews h2 {
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#reviews .review{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#reviews .review .r-img,
+#reviews .review .r-details{
+    padding: 10px;
+}
+
+#reviews .review .r-details p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#reviews .r-details span{
+    color: gray;
+}
