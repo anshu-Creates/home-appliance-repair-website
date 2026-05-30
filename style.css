@@ -162,3 +162,57 @@ button.normal:hover {
     font-size: 20px;
     font-weight: 500;
 }
+
+#services {
+    text-align: center;
+}
+
+#services h2 {
+    color: black;
+    text-decoration: overline;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#services .service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#services .pro {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 20px 20px 34px grey;
+}
+
+#services .pro img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#services .pro .des {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#services .pro .des h5 {
+    background-color: grey;
+    width: 100%;
+    padding: 7px;
+    color: white;
+    font-size: 16px;
+}
+
+#services .pro .des span {
+    color: black;
+    font-size: 12px;
+}
