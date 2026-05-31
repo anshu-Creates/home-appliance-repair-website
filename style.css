@@ -361,3 +361,56 @@ button.normal:hover {
     color: #db7916;
     background-color: #fff2e5;
 }
+
+#contacts h2{
+    color: black;
+    text-decoration: overline;
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#contacts .contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#contacts .contact .details p{
+    padding: 5px;
+}
+
+#contacts .contact .map img{
+    padding: 10px;
+    width: 300px;
+}
+
+#contacts .form{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#contacts .form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contacts .form form h3{
+    font-size: 30px;
+    line-height: 35px;
+    padding: 15px 0;
+}
+
+#contacts .form form input,
+#contacts .form form textarea{
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+}
