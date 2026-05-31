@@ -414,3 +414,58 @@ button.normal:hover {
     margin-bottom: 10px;
     border: 1px solid #e1e1e1;
 }
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+#footer .col1 {
+    width: 350px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#footer .col2 {
+    width: 350px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#footer .col3 {
+    width: 350px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+#footer .logo {
+    margin-bottom: 30px;
+    height: 70px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+#footer h4 {
+    font-size: 17px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+#footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#footer a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
