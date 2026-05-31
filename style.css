@@ -246,3 +246,34 @@ button.normal:hover {
 #reviews .r-details span{
     color: gray;
 }
+
+#abouts h2 {
+    color: black;
+    text-decoration: overline;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#abouts .about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#abouts .about img{
+    width: 300px;
+    padding: 10px;
+}
+
+#abouts .about div{
+    max-width: 700px;
+    min-width: 300px;
+}
+
+#abouts .about div h3{
+    text-align: center;
+    padding: 5px;
+}
