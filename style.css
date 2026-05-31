@@ -277,3 +277,87 @@ button.normal:hover {
     text-align: center;
     padding: 5px;
 }
+
+#features {
+    text-align: center;
+}
+
+#features h2 {
+    color: black;
+    text-decoration: overline;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#features .feature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#features .feature .fe-box1,
+#features .feature .fe-box2,
+#features .feature .fe-box3,
+#features .feature .fe-box4,
+#features .feature .fe-box5,
+#features .feature .fe-box6{
+    width: 150px;
+    justify-content: center;
+    padding: 25px 15px;
+    box-shadow: 0 20px 34px gray;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+
+#features .feature .fe-box1 img,
+#features .feature .fe-box2 img,
+#features .feature .fe-box3 img,
+#features .feature .fe-box4 img,
+#features .feature .fe-box5 img,
+#features .feature .fe-box6 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#features .feature .fe-box1 h6,
+#features .feature .fe-box2 h6,
+#features .feature .fe-box3 h6,
+#features .feature .fe-box4 h6,
+#features .feature .fe-box5 h6,
+#features .feature .fe-box6 h6 {
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+}
+
+#features .feature .fe-box1 h6 {
+    color: #ef0d3e;
+    background-color: #fddde4;
+}
+
+#features .feature .fe-box2 h6 {
+    color: #0ea1e0;
+    background-color: #d1e8f2;
+}
+
+#features .feature .fe-box3 h6 {
+    color: #5cdb13;
+    background-color: #cdebbc;
+}
+
+#features .feature .fe-box4 h6 {
+    color: #0fa3e3;
+    background-color: #d1e8f2;
+}
+
+#features .feature .fe-box5 h6 {
+    color: #1233d7;
+    background-color: #cdd4f8;
+}
+
+#features .feature .fe-box6 h6 {
+    color: #db7916;
+    background-color: #fff2e5;
+}
