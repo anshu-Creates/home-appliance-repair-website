@@ -35,7 +35,7 @@ This project is built using HTML and CSS and includes multiple sections such as 
 │   ├── s1.jpeg
 │   ├── s2.jpeg
 │   ├── ...
-
+```
 ---
 
 ## 📸 Screenshots
